@@ -28,9 +28,9 @@ else {
     console.log(`Ainda falta(m) ${(20 - tempoContribuicao)} ano(s) de contribução.`)
   }
   else if (sexo == 'm' && idade < 62){
-    console.log("Você é mulher e só pode se aposentar aos 62 anos. Ainda faltam " + (62 - idade))
+    console.log("Você é mulher e só pode se aposentar aos 62 anos. Ainda faltam " + (62 - idade) + " ano(s)")
   }
   else if(sexo == 'h' && idade < 65){
-    console.log("Você é homem e só pode se aposentar aos 65 anos. Ainda faltam " + (65 - idade))
+    console.log("Você é homem e só pode se aposentar aos 65 anos. Ainda faltam " + (65 - idade) + " ano(s)")
   }
 }
